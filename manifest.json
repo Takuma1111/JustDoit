@@ -1,0 +1,16 @@
+{
+  "name": "仕事中Youtube防止",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "仕事中や作業中にYoutubeを見た時にJust Do itおじさんをYoutubeのサムネに写して仕事を続けるように促す拡張機能です",
+  "web_accessible_resources": [
+    "*.gif"
+  ],
+  "content_scripts": [{
+    "matches": ["https://www.youtube.com/?gl=JP&hl=ja","https://www.youtube.com/?gl=JP"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
+
