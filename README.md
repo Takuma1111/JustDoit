@@ -1,4 +1,4 @@
-# JustDoit-
+# JustDoit
 仕事中にYoutubeを見てサボらないようにするChromeの拡張機能です。
 Youtubeを開くとJust Do itおじさんがYoutubeのサムネイルに表示されます。
 
